@@ -1,0 +1,1820 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+.bodysize {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+
+/* 1st sheet */
+
+.sheet1-container {
+    position: relative;
+    width: 1440px;
+    height: 900px;
+    background: #FFFFFF;
+}
+
+.navigation-container {
+    position: absolute;
+    width: 1109px;
+    height: 48px;
+    left: 165px;
+    top: 57px;
+    display: flex;
+    align-items: center;
+}
+
+.pense-container {
+    position: absolute;
+    width: 112px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.pense-circlecontainer {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pense-circle {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+}
+
+.circle-X {
+    position: absolute;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 95%;
+    color: #FFFFFF;
+}
+
+.pense {
+    position: absolute;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 95%;
+    color: #292830;
+    left: 52px;
+}
+
+.bar-container {
+    position: absolute;
+    width: 385px;
+    height: 17px;
+    display: flex;
+    align-items: center;
+    left: 363px;
+
+}
+
+.bar-container :hover {
+    cursor: pointer;
+    color: #FF7235;
+}
+
+.features {
+    position: absolute;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 95%;
+    color: #292830;
+    left: 0px;
+    background-color:#FFFFFF;
+    border: 0px;
+}
+
+.aboutus {
+    position: absolute;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 95%;
+    color: #292830;
+    left: 107px;
+    background-color:#FFFFFF;
+    border: 0px;
+}
+
+.pricing {
+    position: absolute;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 95%;
+    color: #292830;
+    left: 217px;
+    background-color:#FFFFFF;
+    border: 0px;
+}
+
+.feedback {
+    position: absolute;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 95%;
+    color: #292830;
+    left: 310px;
+    background-color:#FFFFFF;
+    border: 0px;
+}
+
+.request-container {
+    position: absolute;
+    width: 160px;
+    height: 48px;
+    right: 0px;
+    background: #FFFFFF;
+    border: 1px solid #FF7235;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.request-container :hover {
+    cursor: pointer;
+}
+
+.demorequest {
+    position: absolute;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 95%;
+    color: #FF7235;
+    background-color:#FFFFFF;
+    border: 0px;
+}
+
+.track-container {
+    position: absolute;
+    width: 1108.2px;
+    height: 478px;
+    left: 165px;
+    top: 211px;
+    display: flex;
+    align-items: center;
+}
+
+.track-picture {
+    position: absolute;
+    right: 0px;
+    height: 478px;
+    width: 538.2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.track-text {
+    position: absolute;
+    width: 540px;
+    height: 462px;
+}
+
+.track-1 {
+    position: absolute;
+    width: 540px;
+    height: 288px;
+    display: flex;
+    align-items: center; 
+}
+
+.track-text1 {
+    position: absolute;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 100%;
+    color: #292830;
+}
+
+.track-2 {
+    position: absolute;
+    width: 540px;
+    height: 39px;
+    top: 308px;
+    display: flex;
+    align-items: center;
+}
+
+.track-text2 {
+    position: absolute;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 39px;
+    color: #BDBDBD;
+}
+
+.freedemo-container {
+    position: absolute;
+    width: 498px;
+    height: 75px;
+    bottom: 0px;
+    display: flex;
+    align-items: center;
+}
+
+.freedemo {
+    position: absolute;
+    width: 225px;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    background: #FF7235;
+    border-radius: 8px;
+}
+
+.tryfree {
+    position: absolute;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 39px;
+    color: #FFFFFF;
+    left: 24px;
+}
+
+.arrowdown {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 177px;
+}
+
+.webios {
+    position: absolute;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 39px;
+    color: #BDBDBD;
+    left: 249px;
+}
+
+/* 2nd sheet */
+
+.sheet2-container {
+    width: 1440px;
+    height: 900px;
+    display: flex;
+    justify-content: center;
+}
+
+.orange-container {
+    position: absolute;
+    width: 1440px;
+    height: 712px;
+    background: #FF7235;
+}
+
+.blob {
+    position: absolute;
+    width: 1440px;
+    height: 712px; 
+}
+
+.image-container {
+    position: absolute;
+    width: 1110px;
+    height: 625px;
+    margin-top: 87px;
+}
+
+.logo-container {
+    position: absolute;
+    width: 1109.7px;
+    height: 40px;
+    margin-top: 794px;
+    display: flex;
+    align-items: center;
+}
+
+.facebook {
+   position: absolute;
+   left: 0px;
+}
+
+.google {
+    position: absolute;
+    left: 267px;
+}
+
+.cocacola {
+    position: absolute;
+    left: 489px;
+}
+
+.linkedin {
+    position: absolute;
+    left: 711px;
+}
+
+.samsung {
+    position: absolute;
+    right: 0px;
+}
+
+/* 3rd sheet 3 */
+
+.sheet3-container {
+    position: relative;
+    width: 1440px;
+    height: 820px;
+    background: #FFFFFF;
+}
+
+.ilustrator {
+    position: absolute;
+    left: 736px;
+    top: 193px;
+}
+
+.illustator-text {
+    position: absolute;
+    width: 540px;
+    height: 537px;
+    left: 165px;
+    top: 142px;
+    display: flex;
+    align-items: center;
+}
+
+.illustator-1 {
+    position: absolute;
+    width: 172px;
+    height: 36px;
+    top: 0px;
+}
+
+.illustator-text1 {
+    position: absolute;
+    top: 0px;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 36px;
+    text-transform: uppercase;
+    color: #BDBDBD;
+    
+}
+
+.illustator-2 {
+    position: absolute;
+    width: 540px;
+    height: 288px;
+    top: 60px;
+}
+
+.illustator-text2 {
+    position: absolute;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 100%;
+    color: #292830;
+}
+
+.illustator-3 {
+    position: absolute;
+    width: 540px;
+    height: 117px;
+    top: 372px;
+}
+
+.illustator-text3 {
+    position: absolute;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 39px;
+    color: #BDBDBD;
+}
+
+.learnmore-container {
+    position: absolute;
+    width: 152px;
+    height: 24px;
+    top: 513px;
+    display: flex;
+    align-items: center;
+}
+
+.learnmore {
+   position: absolute;
+   width: 116px;
+   height: 24px;
+   display: flex;
+   align-items: center;
+}
+
+.learnmore-text {
+    position: absolute;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 100%;
+    color: #FF7235;
+}
+
+.learnmore-arrowright {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    right: 0px;
+}
+
+/* sheet 4 */
+
+.sheet4-container {
+    position: relative;
+    width: 1440px;
+    height: 820px;
+    background: #FFFFFF; 
+}
+
+.ilustrator2 {
+    position: absolute;
+    height: 431.58px;
+    width: 540px;
+    left: 167px;
+    top: 194px;
+}
+
+.illustator2-text {
+    position: absolute;
+    width: 540px;
+    height: 537px;
+    left: 735px;
+    top: 142px;
+    display: flex;
+    align-items: center;
+}
+
+.illustator2-1 {
+    position: absolute;
+    width: 163px;
+    height: 36px;
+    top: 0px;
+}
+
+.illustator2-text1 {
+    position: absolute;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 36px;
+    text-transform: uppercase;
+    color: #BDBDBD;
+}
+
+.illustator2-2 {
+    position: absolute;
+    width: 540px;
+    height: 288px;
+    top: 60px;
+}
+
+.illustator2-text2 {
+    position: absolute;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 100%;
+    color: #292830;
+}
+
+.illustator2-3 {
+    position: absolute;
+    width: 540px;
+    height: 117px;
+    top: 372px;
+}
+
+.illustator2-text3 {
+    position: absolute;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 39px;
+    color: #BDBDBD;
+}
+
+/* sheet 5 */
+
+.sheet5-container {
+    position: relative;
+    width: 1440px;
+    height: 820px;
+    background: #FFFFFF;
+}
+
+.ilustrator3 {
+    position: absolute;
+    height: 428.24px;
+    width: 540px;
+    left: 738px;
+    top: 196px;
+}
+
+.illustator3-text {
+    position: absolute;
+    width: 540px;
+    height: 523px;
+    left: 165px;
+    top: 149px;
+    display: flex;
+    align-items: center;
+}
+
+.illustator3-1 {
+    position: absolute;
+    width: 540px;
+    height: 22px;
+    top: 0px;
+}
+
+.illustator3-text1 {
+    position: absolute;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 100%;
+    text-transform: uppercase;
+    color: #BDBDBD;
+}
+
+.illustator3-2 {
+    position: absolute;
+    width: 540px;
+    height: 288px;
+    top: 46px;
+}
+
+.illustator3-text2 {
+    position: absolute;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 100%;
+    color: #292830;
+}
+
+.illustator3-3 {
+    position: absolute;
+    width: 540px;
+    height: 117px;
+    top: 358px;
+}
+
+.illustator3-text3 {
+    position: absolute;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 39px;
+    color: #BDBDBD;
+}
+
+.learnmore2-container {
+    position: absolute;
+    width: 152px;
+    height: 24px;
+    top: 499px;
+    display: flex;
+    align-items: center;
+}
+
+/* sheet6 */
+
+.sheet6-container {
+    position: relative;
+    width: 1440px;
+    height: 900px;
+    background: #FFFFFF;
+}
+
+.poduct-container {
+    position: absolute;
+    width: 1110px;
+    height: 192px;
+    left: 165px;
+    top: 139px;
+    display: flex;
+    align-items: center;
+}
+
+.producttext-container {
+    position: absolute;
+    width: 730px;
+    height: 192px;
+    display: flex;
+    align-items: center;
+}
+
+.poduct-text {
+    position: absolute;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 100%;
+    color: #292830;
+}
+
+.telluxtext-container {
+    position: absolute;
+    width: 350px;
+    height: 156px;
+    right: 0px;
+}
+
+.tellux-text {
+    position: absolute;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 39px;
+    color: #BDBDBD;
+    right: 0px;
+}
+
+.platforms-conrtainer {
+    position: absolute;
+    width: 1110px;
+    height: 350px;
+    left: 165px;
+    top: 411px;
+    display: flex;
+    align-items: center;
+}
+
+.crossplatform {
+    position: absolute;
+    width: 220px;
+    height: 176px;
+    left: 230px;
+    top: 474px;
+    background: #FFFFFF;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+}
+
+.circle-container-platform {
+    position: absolute;
+    width: 72px;
+    height: 72px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.circle-platform {
+    position: absolute;
+}
+
+.platform-logo {
+    position: absolute;
+    top: 24px;
+}
+
+.crosstext-container {
+    position: absolute;
+    top: 88px;
+    width: 191px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.cross-text1 {
+    position: absolute;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 100%;
+}
+
+.crosstext-container2 {
+    position: absolute;
+    width: 220px;
+    height: 46px;
+    top: 130px;
+    display: flex;
+    align-items: center;
+}
+
+.cross-text2 {
+    position: absolute;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;
+    text-align: center;
+    color: #BDBDBD;
+}
+
+.cloudplatform {
+    position: absolute;
+    width: 220px;
+    height: 224px;
+    left: 614px;
+    top: 474px;
+    background: #FFFFFF;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+} 
+
+.cloud-container-platform {
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cloud-platform {
+    position: absolute;
+}
+
+.cloud-logo {
+    position: absolute;
+}
+
+.cloudtext-container {
+    position: absolute;
+    top: 88px;
+    width: 164px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.cloud-arrow {
+    position: absolute;
+    top: 208px; 
+}
+
+.pureplatform {
+    position: absolute;
+    width: 220px;
+    height: 176px;
+    left: 990px;
+    top: 474px;
+    background: #FFFFFF;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+}
+
+.pure-container-platform {
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cloud-platform {
+    position: absolute;
+}
+
+.pure-logo {
+    position: absolute;
+}
+
+.puretext-container {
+    position: absolute;
+    top: 88px;
+    width: 196px;
+    height: 30px;
+    display: flex;
+    text-align: center;
+}
+
+.pure-text1 {
+    position: absolute;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 100%;
+}
+
+/* sheet 7 */
+
+.sheet7-container {
+    position: relative;
+    width: 1440px;
+    height: 900px;
+    background: #FFFFFF;
+}
+
+.flexible-container {
+    position: absolute;
+    width: 1110px;
+    height: 72px;
+    left: 165px;
+    top: 124px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.choose {
+    position: absolute;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 100%;
+    color: #292830;
+}
+
+.plans-container {
+    position: absolute;
+    width: 1110px;
+    height: 500px;
+    left: 165px;
+    top: 276px;
+    display: flex;
+    align-items: center;
+}
+
+.starter-container {
+    position: absolute;
+    width: 196px;
+    height: 399px;
+    left: 40px;
+    top: 41px;
+}
+
+.starter-logo {
+    top: 0px;
+}
+
+.startertext1-container {
+    position: absolute;
+    width: 165px;
+    height: 52px;
+    top: 48px;
+    display: flex;
+    align-items: center;
+}
+
+.startertext1 {
+    position: absolute;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 52px;
+    color: #292830;
+}
+
+.startertext2-container {
+    position: absolute;
+    width: 196px;
+    height: 103px;
+    top: 124px;
+    display: flex;
+    align-items: center;
+}
+
+.startertext2-container1 {
+    position: absolute;
+    width: 190px;
+    height: 29px;
+    top: 0px;
+    display: flex;
+    align-items: center;
+}
+
+.startertext2-text1 {
+    position: absolute;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29px;
+    left: 32px;
+}
+
+.startertext2-container2 {
+    position: absolute;
+    width: 196px;
+    height: 29px;
+    top: 37px;
+    display: flex;
+    align-items: center;
+}
+
+.startertext2-text2 {
+    position: absolute;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29px;
+    left: 32px;
+}
+
+.startertext2-container3 {
+    position: absolute;
+    width: 193px;
+    height: 29px;
+    bottom: 0px;
+    display: flex;
+    align-items: center;
+}
+
+.startertext2-text3 {
+    position: absolute;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29px;
+    left: 32px;
+}
+
+.startertext3-container {
+    position: absolute;
+    width: 102px;
+    height: 39px;
+    top: 251px;
+    display: flex;
+    align-items: center;
+}
+
+.price1 {
+    position: absolute;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 39px;
+    color: #292830;
+}
+
+.year {
+    position: absolute;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 32px;
+    color: #BDBDBD;
+    right: 0px;
+}
+
+.startertext4-container {
+    position: absolute;
+    width: 134px;
+    height: 19px;
+    top: 290px;
+    display: flex;
+    align-items: center;
+}
+
+.info1 {
+    position: absolute;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 19px;
+    color: #BDBDBD;
+}
+
+.startergetthis1-container {
+    position: absolute;
+    height: 50px;
+    width: 136px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    border: 1px solid #FF7235;
+    bottom: 0px;
+    padding: 12px 24px;
+}
+
+.getthis1 {
+    position: absolute;
+    width: 88px;
+    height: 26px;
+    display: flex;
+    align-items: center;
+}
+
+.thistext {
+    position: absolute;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FF7235;
+}
+
+.getthisarrow {
+    position: absolute;
+    right: 0px;
+}
+
+.sliver-container {
+    position: absolute;
+    width: 196px;
+    height: 399px;
+    left: 40px;
+    top: 41px;
+}
+
+.startertext5-container {
+    position: absolute;
+    width: 111px;
+    height: 39px;
+    top: 251px;
+    display: flex;
+    align-items: center;
+}
+
+.sliver-logo {
+    position: absolute;
+}
+
+.startergetthis2-container {
+    position: absolute;
+    height: 50px;
+    width: 136px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    border: 1px solid #FF7235;
+    bottom: 0px;
+    padding: 12px 24px;
+    background: #FF7235;
+}
+
+.getthis2 {
+    position: absolute;
+    width: 88px;
+    height: 26px;
+    display: flex;
+    align-items: center;
+}
+
+.thistext2 {
+    position: absolute;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: white;
+}
+
+.getthisarrow2 {
+    position: absolute;
+    right: 0px;
+}
+
+.diamond-container {
+    position: absolute;
+    width: 196px;
+    height: 399px;
+    left: 40px;
+    top: 41px;
+}
+
+.startertext6-container {
+    position: absolute;
+    width: 114px;
+    height: 39px;
+    top: 251px;
+    display: flex;
+    align-items: center;
+}
+
+.diamond-logo {
+    position: absolute;
+}
+
+.startertext7-container {
+    position: absolute;
+    width: 197px;
+    height: 39px;
+    top: 48px;
+    display: flex;
+    align-items: center;
+}
+
+.starterbig-container {
+    position: absolute;
+    width: 350px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    background: #FFFFFF;
+    border: 1px solid #F5F5F5;
+    border-radius: 12px;
+}
+
+.sliverbig-container {
+    position: absolute;
+    width: 350px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    background: #FFFFFF;
+    border: 1px solid #F5F5F5;
+    border-radius: 12px;
+    left: 380px;
+}
+
+.diamondbig-container {
+    position: absolute;
+    width: 350px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    background: #FFFFFF;
+    border: 1px solid #F5F5F5;
+    border-radius: 12px;
+    left: 760px;
+}
+
+/* sheet 8 */
+
+.sheet8-container {
+    position: relative;
+    width: 1440px;
+    height: 800px;
+    background: #FFFFFF;
+    display: flex;
+    justify-content: center;
+}
+
+.bestwishers-container {
+    position: absolute;
+    width: 1870px;
+    height: 558px;
+    left: -220px;
+    top: 121px;
+}
+
+.millions-container {
+    position: absolute;
+    width: 920px;
+    height: 192px;
+    top: 0px;
+    left: 476px;
+}
+
+.millions {
+    position: absolute;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 100%;
+    text-align: center;
+    color: #292830;
+}
+
+.profiles-container {
+    position: absolute;
+    width: 1870px;
+    height: 250px;
+    top: 272px;
+    display: flex;
+    align-items: center;
+}
+
+.profile1-container {
+    position: absolute;
+    width: 350px;
+    height: 250px;
+    background: #FFFFFF;
+    border: 1px solid #F5F5F5;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile1-line1 {
+    position: absolute;
+    width: 350px;
+    height: 10px;
+    top: -1px;
+    left: -1px;
+    background: #FF7235;
+    border-radius: 12px 12px 0px 0px;
+}
+
+.text-and-profile-container {
+    position: absolute;
+    width: 293px;
+    height: 199px;
+    display: flex;
+    align-items: center;
+}
+
+.profile-text {
+    position: absolute;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29px;
+    color: #000000;
+    top: 0px;
+}
+
+.profile-photo-container {
+    position: absolute;
+    width: 228px;
+    height: 30px;
+    bottom: 0px;
+    display: flex;
+    align-items: center;
+}
+
+.profile1-name {
+    position: absolute;
+    width: 186px;
+    height: 26px;
+    left: 42px;
+    display: flex;
+    align-items: center;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.position {
+    font-family: 'Hind Siliguri';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #BDBDBD;
+}
+
+.profile2-container {
+    position: absolute;
+    width: 350px;
+    height: 250px;
+    background: #FFFFFF;
+    border: 1px solid #F5F5F5;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 380px;
+}
+
+.profile2-line1 {
+    position: absolute;
+    width: 350px;
+    height: 10px;
+    top: -1px;
+    left: -1px;
+    background: #FFBE21;
+    border-radius: 12px 12px 0px 0px;
+}
+
+.profile3-container {
+    position: absolute;
+    width: 350px;
+    height: 250px;
+    background: #FFFFFF;
+    border: 1px solid #F5F5F5;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 760px;
+}
+
+.profile3-line1 {
+    position: absolute;
+    width: 350px;
+    height: 10px;
+    top: -1px;
+    left: -1px;
+    background: #4756DF;
+    border-radius: 12px 12px 0px 0px;
+}
+
+.profile4-container {
+    position: absolute;
+    width: 350px;
+    height: 250px;
+    background: #FFFFFF;
+    border: 1px solid #F5F5F5;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 1140px;
+}
+
+.profile4-line1 {
+    position: absolute;
+    width: 350px;
+    height: 10px;
+    top: -1px;
+    left: -1px;
+    background: #3EC1F3;
+    border-radius: 12px 12px 0px 0px;
+}
+
+.profile5-container {
+    position: absolute;
+    width: 350px;
+    height: 250px;
+    background: #FFFFFF;
+    border: 1px solid #F5F5F5;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 1520px;
+}
+
+.profile5-line1 {
+    position: absolute;
+    width: 350px;
+    height: 10px;
+    top: -1px;
+    left: -1px;
+    background: #BB7259;
+    border-radius: 12px 12px 0px 0px;
+}
+
+.points {
+   position: absolute;
+   bottom: 0px;
+   left: 889px; 
+   width: 92px;
+   height: 12px;
+}
+
+/* sheet 9 */
+
+.sheet9-container {
+    position: relative;
+    width: 1440px;
+    height: 750px;
+    background: #FF7235;
+}
+
+.sheet9-text-container {
+    position: absolute;
+    width: 920px;
+    height: 324px;
+    left: 260px;
+    top: 120px;
+}
+
+.sheet9-pic1 {
+    position: absolute;
+    top: 335px;
+    left: 61px;
+}
+
+.sheet9-pic2 {
+    position: absolute;
+    top: 317px;
+    left: 911px; 
+}
+
+.sheet9-font-size72px {
+    position: absolute;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 100%;
+    color: #FFFFFF;
+    margin-top: 0px;
+    text-align: center;
+    width: 920px;
+    height: 144px;
+}
+
+.sheet9-font-size36px {
+    position: absolute;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 100%;
+    color: #FFFFFF;
+    margin-top: 168px;
+    text-align: center;
+    width: 920px;
+    height: 36px;
+}
+
+.freedemo2 {
+    position: absolute;
+    width: 213px;
+    height: 60px;
+    left: 353px;
+    bottom: 0px;
+    display: flex;
+    align-items: center;
+    background: #FFFFFF;
+    border-radius: 8px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.sheet9-font-size22px {
+    position: absolute;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 95%;  
+    color: #FF7235; 
+}
+
+.sheet9-check {
+    position: absolute;
+    left: 165px;
+}
+
+/* sheet 10 */
+
+.sheet10-bigcontainer {
+    position: relative;
+    width: 1440px;
+    height: 530px;
+    background: #FFFFFF;
+}
+
+.sheet10-container {
+    position: absolute;
+    width: 1109px;
+    height: 277px;
+    left: 165px;
+    top: 80px;
+}
+
+.pense-container2 {
+    position: absolute;
+    width: 112px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.pense-circlecontainer2 {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pense-circle2 {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+}
+
+.circle2-X {
+    position: absolute;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 95%;
+    color: #FFFFFF;
+}
+
+.pense2 {
+    position: absolute;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 95%;
+    color: #292830;
+    left: 52px;
+}
+
+.links-container {
+    position: absolute;
+    width: 71px;
+    height: 277px;
+    left: 284px;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 39px;
+    color: #292830;
+}
+
+.other-links-container {
+    position: absolute;
+    width: 71px;
+    height: 214px;
+    top: 63px;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 29px;
+    color: #292830;
+}
+
+.home {
+    margin-bottom: 8px;
+}
+
+.legal-container {
+    position: absolute;
+    width: 154px;
+    height: 203px;
+    left: 478px;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 39px;
+    color: #292830;
+}
+
+.other-legal-links-container {
+    position: absolute;
+    width: 154px;
+    height: 140px;
+    top: 63px;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 29px;
+    color: #292830;
+}
+
+.newsletter-container {
+    position: absolute;
+    width: 349px;
+    height: 208px;
+    left: 760px;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 39px;
+    color: #292830;
+}
+
+.other-newsletter-links-container {
+    position: absolute;
+    width: 349px;
+    height: 145px;
+    top: 63px;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    color: #BDBDBD;
+}
+
+.newsletter-info {
+    position: absolute;
+    bottom: 0px;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;
+    color: #BDBDBD;
+}
+
+.home2 {
+    margin-bottom: 18px;
+}
+
+.content {
+    position: absolute;
+    width: 349px;
+    height: 62px;
+    background: #FFFFFF;
+    border: 1px solid #292830;
+    border-radius: 8px;
+    padding: 23px 17px;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29px;
+}
+
+.subscribe-btn {
+    position: absolute;
+    width: 102px;
+    height: 48px;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+    background: #FF7235;
+    border: #FF7235;
+    border-radius: 8px;
+    left: 241px;
+    margin-top: 7px;
+}
+
+.subscribe-btn :hover {
+    cursor: pointer;
+}
+
+.btn1 {
+    text-align: center;
+    color: white;
+}
+
+.privet {
+    width: 349px;
+    height: 62px;
+}
+
+.sheet10-line {
+    position: absolute;
+    width: 1109px;
+    height: 0px;
+    left: 165px;
+    top: 397px;
+    border: 1px solid rgba(189, 189, 189, 0.2);
+}
+
+.last-container {
+    position: absolute;
+    width: 1111px;
+    height: 23px;
+    left: 162px;
+    top: 417px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.privacycontact-container {
+    position: absolute;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;
+    color: #292830;
+    width: 185px;
+    height: 23px;
+}
+
+.last-contactus {
+    position: absolute;
+    width: 66px;
+    height: 23px;
+    text-align: center;
+    right: 0px;
+}
+
+.privacyterms {
+    position: absolute;
+    width: 95px;
+    height: 23px;
+}
+
+.copyright-container {
+    position: absolute;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;
+    color: #292830;
+    width: 154px;
+    height: 23px;
+    left: 461px;
+}
+
+.lastlogo-container {
+    position: absolute;
+    width: 84px;
+    height: 20px;
+    right: 0px;
+}
+
+.facebook-logo {
+    position: absolute;
+    left: 0px;
+}
+
+.twitter-logo {
+    position: absolute;
+    left: 33.25px;
+}
+
+.linkedin-logo {
+    position: absolute;
+    right: 0px;
+}
+
+
+
+.btn {}
+
+.btn {
+    display: inline-block;
+    color: blue;
+}
+.btn--secondary {
+    color: green;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
