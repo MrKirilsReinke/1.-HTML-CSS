@@ -62,7 +62,7 @@ This project provides a collection of web interface components such as avatars, 
 
 ## Credits
 
-The components and styles used in this project are created by Kirils Reinke and inspired by Figma various design resources.
+The components and styles inspired by Figma various design resources.
 
 ## License
 
