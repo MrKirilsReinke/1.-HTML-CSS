@@ -10,7 +10,6 @@ The project's primary purpose is to provide a web interface with various compone
 - [Installation](#installation)
 - [Usage](#usage)
 - [Credits](#credits)
-- [License](#license)
 - [Features](#features)
 - [How to Contribute](#how-to-contribute)
 
